@@ -1,5 +1,6 @@
 # SISTEMAS DIGITALES - ARDUINO (HISTORIA, ARQUITECTURA, PERIFICRICOS, ETC.)
-## 👨‍💻 Autores
+## Autores
+
 * **Nombres:** Edwin Stiven Pasto Arévalo / Julian Felipe Romero Bocanegra
 * **Carrera:** Ingeniería de Sistemas
 * **Docente:** Diego Alejandro Barragan Vargas
@@ -29,6 +30,9 @@ Cuenta con una memoria de 2KB, es una memoria volatil de acceso rapido donde se 
 Cuenta con una memoria de 1 KB, es la memoria no volatil de lectura/escritura lenta, guarda configuraciones que deben persistir incluso si se desconecta la alimentación.
 
 ## Periféricos de Arduino y su uso
+<img width="3210" height="1165" alt="image" src="https://github.com/user-attachments/assets/dc7ad0e4-7eb9-4b92-aa86-a87514e42b77" />
+Puertos USB 2.0 Tipo A & Tipo B - Fuente Propia
+
 
 ### UART (Universal Asynchronous Receiver-Transmitter)
 Utiliza los pines 0 (RX) y 1 (TX) es la comunicación de serie basica para cargar codigo desde la PC y el monitor en serie.
@@ -60,6 +64,8 @@ Modulación PWM: Controlar la intensidad de un LED o la posición de un servomot
 ---
 
 ## 📚 Referencias y Atribuciones
-* **Simulación:** 
-* **Asistencia Técnica:** La estructura de la documentación y organización del repositorio contó con el apoyo de **Gemini (IA de Google)** para asegurar estándares de documentación profesional.
+
+* **Estándares de Hardware:** La identificación de conectores se basa en las especificaciones del [USB Implementers Forum (USB-IF)](https://www.usb.org/usb-20-documents) para el estándar **USB 2.0**, definiendo las interfaces físicas **Tipo-A** (Host) y **Tipo-B** (Device).
+* **Asistencia Técnica:** La estructura de la documentación, la organización técnica del repositorio y la clarificación de roles de conectividad contaron con el apoyo de **Gemini (IA de Google)** para asegurar estándares de documentación profesional.
+* de documentación profesional.
 * **Licencia:** Este proyecto se distribuye bajo fines académicos para la Universidad Compensar.
