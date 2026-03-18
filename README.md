@@ -18,7 +18,7 @@ Es una plataforma basada en un microcontorlador de arquitectuta Harvard, donde l
 ### Cerebro (MCU - Unidad de microcontrolador)
 El microcontrolador ATmega328P está integrado al famoso modelo Arduino Uno. Este chip de 8 bits, que pertenece a la familia AVR y fue fabricado por Atmel (actualmente forma parte de Microchip Technology), es famoso por su avanzada arquitectura RISC (Reduced Instruction Set Computer).
 
-#### Arquitectura de Harvard:
+### Arquitectura de Harvard:
 La arquitectura Harvard, a diferencia de la arquitectura Von Neumann, utiliza buses y áreas de memoria separados físicamente para los datos e instrucciones del programa. Esto posibilita que el procesador, en un proceso denominado pipeline de 1 nivel, ejecute una instrucción y obtenga la siguiente al mismo tiempo. Esta concurrencia es lo que posibilita que la mayor parte de las instrucciones se ejecuten en un único ciclo de reloj, con lo cual se optimiza el rendimiento.
 
 ## Velocidad de reloj
