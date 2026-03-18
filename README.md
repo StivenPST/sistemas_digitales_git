@@ -38,13 +38,22 @@ Se encuentra localizado en los pines A4 (SDA) y A5 (SCL), permite conectar hasta
 Ubicado en los pines 10 (SS), 11 (MOSI), 12 (MISO) y 13 (SCK), es un protocolo de velocidad ideal para tarjetas SD, pantallas rápidas o modulos de comunicación inalambrica.
 
 ## Ficha técnica, pines de conexión
-Arduino actúa como el "sistema nervioso" de un proyecto. Su flujo de trabajo es simple:
-### Entrada: 
-Lee el entorno (un sensor de temperatura, un botón, un receptor de luz).
-### Procesamiento: 
-Ejecuta la lógica que escribiste (ej: "Si hace calor, enciende el ventilador").
-### Salida: 
-Actúa sobre el mundo físico (mueve un motor, enciende un LED, envía un mensaje Wi-Fi).
+1. Entrada (Sensores)
+Detecta señales del entorno físico.
+
+Digitales: Estados binarios (encendido/apagado), como un pulsador o un sensor PIR.
+
+Analógicas: Valores continuos (0 a 1023), como un potenciómetro o un sensor de temperatura LM35.
+
+2. Procesamiento (Lógica)
+El código cargado interpreta las entradas. Utiliza estructuras condicionales (if, switch) y bucles (for, while) para decidir qué acción tomar según los parámetros programados.
+
+3. Salida (Actuadores)
+Genera una respuesta física.
+
+Control ON/OFF: Encender luces, activar relés.
+
+Modulación PWM: Controlar la intensidad de un LED o la posición de un servomotor simulando voltajes variables.
 
 
 
