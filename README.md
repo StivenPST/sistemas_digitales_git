@@ -3,14 +3,24 @@
 ## Historia de Arduino
 El arduino nacio en el Instituto Interaction Design Institute Ivrea en el año 2005 por un equipo investigativo liberado por Massimo Banzi.
 
-El objetivo 
+El objetivo era crear una herramienta de bajo costo para el uso de los estudiante, con el fin de poder manipular dispositivos electronicos, sin necesidad de tener conocimiento de progrmacion compleja.
 
+## Arquitectura, ventajas y funcionalidad.
+Es una plataforma basada en un microcontorlador de arquitectuta Harvard, donde la memoria se programa y la memoria de datos tambien se encuentran separada:
+
+# Cerebro (MCU)
+Por lo general bien el ATMEGA328P en el modelo (1) uno.
+
+# Velocidad de reloj
+Por lo general tiene uan velocidad de 16 MHZ, 
+#
 
 ## Periféricos de Arduino y su uso
 
+
 ## Ficha técnica, pines de conexión
 
-## Arquitectura, ventajas y funcionalidad.
+
 
 ## 👨‍💻 Autores
 * **Nombres:** Edwin Stiven Pasto Arévalo / Julian Felipe Romero Bocanegra
